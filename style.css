@@ -1,14 +1,267 @@
-@media (min-width),(max-width) {
-    
-
+@media (min-width: 280px) and (max-width: 767px)
+{
     body{
-        color: aquamarine;
+        color: white;
         background-color: black;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+    a
+    {   text-decoration: none;
+        color: inherit;
+    }
+    .nav a img{
+        width: 70px;
+        display: inline-block;
+        align-items: start;
+        margin-top: -8px;
+    }
+    .nav ul{
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: -80px;
+        margin-top: -45px;
+        font-weight: bold;
+    }
+    .nav{
+        padding: 10px;
+        background-color: #444;
+    }
+    nav a:hover{
+        color: #ccc;
     }
     h1{
         font-size: 45px;
+        display: flex;
+        justify-content: center;
+        padding: 25px;
     }
     p{
-        font-size: 25px;
+        font-size: 15px;
+        display: flex;
+        text-align: center;
+        padding: 20px;
     }
-    };
+    h2, h3{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+    }
+    .decisions{
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+    .decisions img{
+        width: 280px;
+    }
+  
+    #redes, #contacto{
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+    #redes img{
+        width: 30px;
+        margin: 20px;}
+    
+    #contacto img{
+        width: 40px;
+        margin: 20px;
+    }
+    footer{
+        background-color:  #111;
+        color:  #fbfbfb;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) 
+{
+    body{
+        color: white;
+        background-color: black;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+    a
+    {   text-decoration: none;
+        color: inherit;
+    }
+    .nav a img{
+        width: 70px;
+        display: inline-block;
+        align-items: start;
+        margin-top: -8px;
+    }
+    .nav ul{
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: -140px;
+        margin-top: -45px;
+        font-weight: bold;
+    }
+    .nav{
+        padding: 10px;
+        background-color: #444;
+    }
+    nav a:hover{
+        color: #ccc;
+    }
+    h1{
+        font-size: 45px;
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+    }
+    p{
+        font-size: 15px;
+        display: flex;
+        text-align: center;
+        padding: 20px;
+    }
+    h2, h3{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+    }
+    .decisions{
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+    .decisions img{
+        width: 480px;
+    }
+  
+    #redes, #contacto{
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+    #redes img{
+        width: 50px;
+        margin: 20px;}
+    
+    #contacto img{
+        width: 65px;
+        margin: 20px;
+    }
+    footer{
+        background-color:  #111;
+        color:  #fbfbfb;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 1024px)
+{
+    body{
+        color: white;
+        background-color: black;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+    a
+    {   text-decoration: none;
+        color: inherit;
+    }
+    .nav a img
+    {
+        width: 90px;
+        display: inline-block;
+        align-items: start;
+        margin-top: -8px;
+    }
+    .nav ul
+    {
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: -190px;
+        margin-top: -55px;
+        font-weight: bold;
+    }
+    .nav{
+        padding: 15px;
+        background-color: #444;
+    }
+    nav a:hover{
+        color: #ccc;
+    }
+    h1{
+        font-size: 55px;
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+    }
+    p{
+        font-size: 20px;
+        display: flex;
+        text-align: center;
+        padding: 20px;
+    }
+    .decisions{
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+    .decisions img{
+        width: 580px;
+    }
+  
+    #redes, #contacto{
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+    #redes img{
+        width: 60px;
+        margin: 20px;}
+    
+    #contacto img{
+        width: 80px;
+        margin: 20px;
+    }
+    footer{
+        background-color:  #111;
+        color:  #fbfbfb;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    
+    h2, h3{
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        padding: 25px;
+    }
+}
